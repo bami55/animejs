@@ -1,0 +1,40 @@
+body {
+  background: #252423;
+}
+
+.names {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-plate {
+  opacity: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 290px;
+  margin: 2px 0;
+}
+
+.name-plate.start {
+  opacity: 1;
+}
+
+.hover {
+  pointer-events: none;
+  position: relative;
+  width: 0;
+  height: 28px;
+  background-color: #FFC730;
+  font-size: 14px;
+}
+
+.text {
+  opacity: 0;
+  position: fixed;
+  text-align: center;
+  width: 290px;
+  height: 28px;
+  color: #FFC730;
+  font-size: 14px;
+  line-height: 28px;
+}
